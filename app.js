@@ -95,6 +95,9 @@ const app = Vue.createApp({
             this.playerHP = 100;
             this.monsterHP = 100;
             this.result = null;
+            this.log = [];
+            this.round = 0;
+            this.sp = false;
         }
     }
 })
